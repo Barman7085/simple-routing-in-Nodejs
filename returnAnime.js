@@ -5,7 +5,7 @@ const server = http.createServer((req,res) => {
 	console.log("connected!");
 	console.log(req.url,req.method);
 	res.setHeader('Content-Type', 'text/html');
-	let path = './return2/';
+	let path = './routes/';
 
 		switch(req.url)     
 		{
